@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include <string.h>
 
+
 #include "revert_string.h"
 
 void testRevertString(void) {
@@ -22,7 +23,7 @@ void testRevertString(void) {
   RevertString(str_with_even_chars_num);
   CU_ASSERT_STRING_EQUAL_FATAL(str_with_even_chars_num, "dcba");
 }
-
+//1234 -> 2143
 int main() {
   CU_pSuite pSuite = NULL;
 
